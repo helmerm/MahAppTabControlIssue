@@ -1,0 +1,21 @@
+﻿<controls:MetroWindow x:Class="MahAppTabControlIssue.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      Title="MainWindow"
+                      Height="600"
+                      Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Content="add" x:Name="Add"></Button> 
+        <TabControl Grid.Row="1" x:Name="Test"
+                    TabStripPlacement="Left"></TabControl>
+
+    </Grid>
+
+</controls:MetroWindow>
